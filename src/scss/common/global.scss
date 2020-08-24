@@ -1,0 +1,32 @@
+@import "/node_modules/normalize.css/normalize.css";
+@import "/node_modules/swiper/swiper-bundle.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  min-width: $mobile-width;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  padding-top: 18px;
+  padding-bottom: 45px;
+
+  background-color: #000222;
+}

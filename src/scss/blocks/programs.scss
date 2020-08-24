@@ -1,0 +1,24 @@
+.programs {
+  @include mobile-container;
+
+  font-family: $base-font;
+  color: #000222;
+
+  @include media-tablet {
+    @include tablet-container;
+  }
+
+  @include media-desktop {
+    @include desktop-container;
+  }
+}
+
+.programs__title {
+  margin-bottom: 14px;
+
+  font-size: 24px;
+  line-height: 35px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
