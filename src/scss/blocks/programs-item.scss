@@ -62,27 +62,27 @@
 }
 
 .programs-item--altai .programs-item__header {
-  background-image: url(../../img/ellipse-mobile.svg);
+  background-image: url(../img/ellipse-mobile.svg);
 
   @include media-tablet {
-    background-image: url(../../img/ellipse-tablet.svg);
+    background-image: url(../img/ellipse-tablet.svg);
   }
 
   @include media-desktop {
-    background-image: url(../../img/ellipse-desktop.svg);
+    background-image: url(../img/ellipse-desktop.svg);
   }
 }
 
 .programs-item--bashk .programs-item__header {
   background-color: #e6e7e9;
-  background-image: url(../../img/bashk-header-mobile.svg);
+  background-image: url(../img/bashk-header-mobile.svg);
 
   @include media-tablet {
-    background-image: url(../../img/bashk-header-tablet.svg);
+    background-image: url(../img/bashk-header-tablet.svg);
   }
 
   @include media-desktop {
-    background-image: url(../../img/bashk-header-desktop.svg);
+    background-image: url(../img/bashk-header-desktop.svg);
   }
 }
 
